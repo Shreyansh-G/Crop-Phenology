@@ -1,0 +1,63 @@
+/.vscode
+references/
+
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Local logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment files
+.env
+.env.*
+
+# ── Journal submission: private code (DO NOT PUBLISH) ──────────────────────────
+# Model training notebooks (full implementation = journal IP)
+model_1.ipynb
+model_2.ipynb
+model_2_v2.ipynb
+model_3_presto.ipynb
+model_3_presto_ablation.ipynb
+model_4_ablation.ipynb
+model_4_perceiver_mamba_beststableversion.ipynb
+model_baseline.ipynb
+model_baseline_v2.ipynb
+model_baseline_v2_ablation.ipynb
+
+# Trained model weights (large binary files, journal IP)
+models/*.pth
+
+# Internal exploration notebooks
+frames.ipynb
+
+# Complexity profiler (method-specific code)
+scripts/compute_complexity.py
+
+# ── Internal working files (not for public) ────────────────────────────────────
+# Confidential review/rebuttal documents
+Rebuttal_Letter_Final.docx
+Rebuttal_Letter_Final.md
+Rebuttal_Presentation.pptx
+PhenoCrop_Benchmark_v2.pptx
+reviews.pdf
+ppt_texts.txt
+generate_docx.py
+
+# Dump folder (internal scratch)
+dump/

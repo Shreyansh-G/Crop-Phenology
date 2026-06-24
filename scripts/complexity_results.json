@@ -1,0 +1,38 @@
+[
+  {
+    "model": "BiLSTM",
+    "params": 574725,
+    "params_fmt": "574.7K",
+    "latency_ms": 3.08
+  },
+  {
+    "model": "TempCNN",
+    "params": 58245,
+    "params_fmt": "58.2K",
+    "latency_ms": 1.0
+  },
+  {
+    "model": "TCN",
+    "params": 231237,
+    "params_fmt": "231.2K",
+    "latency_ms": 7.11
+  },
+  {
+    "model": "Vanilla Transformer",
+    "params": 407941,
+    "params_fmt": "407.9K",
+    "latency_ms": 2.21
+  },
+  {
+    "model": "PhenoCrop-Presto",
+    "params": 540485,
+    "params_fmt": "540.5K",
+    "latency_ms": 6.36
+  },
+  {
+    "model": "PhenoCrop-BiMamba",
+    "params": 2620229,
+    "params_fmt": "2.62M",
+    "latency_ms": 60.75
+  }
+]
